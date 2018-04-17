@@ -1,0 +1,50 @@
+  
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    #buttonArea {
+        background-color: #e6f5ff;
+        margin: auto;
+        width: 90%;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+    button {
+      height: 200px;
+      width: 300px;
+    }
+      
+    #paragraphArea {
+      padding-top: 15px;
+      text-align: left;
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+      #logo {
+          margin-top: 3px;
+          margin: auto;
+      }
+      #row{
+            text-align: center;
+      }
+      
+      #chart {
+          height: 500px;
+/*          background-color: #f2f2f2;*/
+          border-radius: 25px;
+          margin: 15px;
+      }
+    #tableData {
+          padding: 50px;
+          //background-color: #f2f2f2;
+          border-radius: 25px;
+          margin: 15px;
+      }
