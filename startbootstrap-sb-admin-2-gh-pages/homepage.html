@@ -1,0 +1,196 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>C3</title>
+    <meta charset="utf-8" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>
+</head>
+<body>
+    <div id="chart"></div>
+    <button id='hide'>hide</button>
+    <button id='show'>show</button>
+    <script>
+        
+        var chart = c3.generate({
+            data: {
+                x:'x',
+                columns: [
+                    ['x', '2012', '2013', '2014', '2015', '2016', '2017'],
+                    ['data1', 300, 350, 300, 0, 0, 0],
+                    ['data2', 700, 100, 140, 200, 150, 50],
+                    ['data3', 300, 250, 140, 270, 74, 50]
+                ]
+            }
+        });
+        
+        var hider = document.getElementById('hide');
+        hider.onclick = function() {
+                chart.hide(['data2', 'data3']);
+        }
+        
+        var shower = document.getElementById('show');
+        shower.onclick = function() {
+                chart.show(['data2', 'data3']);
+        }
+    </script>
+</body>
+</html>-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Stock Overflow</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    #buttonArea {
+    
+        
+    }
+    button {
+      height: 200px;
+      width: 400px;
+    }
+      
+    #paragraphArea {
+      text-align: left;
+      margin-right: 10%;
+      margin-left: 10%;
+    }
+      #logo {
+          margin-top: 3px;
+          margin: auto;
+      }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Stock Overflow</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center" id="logo">
+      
+      <img src="images/logo.png" height="250px">
+      
+  </div>
+</div>
+<div id="buttonArea">
+    
+    
+    
+    
+    
+    
+    
+<div class="container-fluid bg-3 text-center">    
+  <h3>About Us:</h3><br>
+  <div class="row" id="paragraphArea">
+    <p>talk about what we are ... blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah blahh blah blah</p>
+  </div>
+</div><br>
+<div class="container-fluid bg-3 text-center">    
+  <h3>FAQ:</h3><br>
+  <div class="row" id="paragraphArea">
+    <div class="col-sm-6">
+      <h4>QUESTION..</h4>
+      <p>blah blah blah... ?</p>
+      <h4>QUESTION..</h4>
+      <p>blah blah blah... ?</p>
+      <h4>QUESTION..</h4>
+      <p>blah blah blah... ?</p>
+    </div>
+    <div class="col-sm-6"> 
+      <h4>QUESTION..</h4>
+      <p>blah blah blah... ?</p>
+      <h4>QUESTION..</h4>
+      <p>blah blah blah... ?</p>
+      <h4>QUESTION..</h4>
+      <p>blah blah blah... ?</p>
+    </div>
+  </div>
+</div><br>
+    
+    
+    
+    
+    
+    
+<div class="container-fluid bg-3 text-center">    
+  <h3>Query Buttons</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Some text..</p>
+      <button>BUTTON</button>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Some text..</p>
+      <button>BUTTON</button>
+    </div>
+    <div class="col-sm-4"> 
+      <p>Some text..</p>
+      <button>BUTTON</button>
+    </div>
+
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-6">
+      <p>Some text..</p>
+      <button>BUTTON</button>
+    </div>
+    <div class="col-sm-6"> 
+      <p>Some text..</p>
+      <button>BUTTON</button>
+    </div>
+
+  </div>
+</div><br><br>
+    </div>
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
+
