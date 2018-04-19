@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Stock Overflow</title>
-          <link rel="stylesheet" href="../buttons.css">
-        <link rel="stylesheet" href="../tableModel.css">
+          <link rel="stylesheet" href="../css/buttons.css">
+        <link rel="stylesheet" href="../css/tableModel.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.css" rel="stylesheet" />
@@ -14,7 +14,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.10/c3.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-          <link rel="stylesheet" href="../generalStyle.css">
+          <link rel="stylesheet" href="../css/generalStyle.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
@@ -41,7 +41,7 @@ $(function() {
         <div class="jumbotron">
           <div class="container text-center" id="logo">
 
-              <a href="../homepage.html"><img src="../images/logo.png" height="250px"></a>
+              <a href="../index.html"><img src="../images/logo.png" height="250px"></a>
 
           </div>
         </div>

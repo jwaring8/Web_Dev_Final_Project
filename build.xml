@@ -1,0 +1,27 @@
+<project name="StockOverflow" default="deploy">
+  
+  <target name="deploy">
+    <copy file="index.html" todir="/var/lib/tomcat7/webapps/StockOverflow"/>
+    <copy todir="/var/lib/tomcat7/webapps/StockOverflow">
+      <fileset dir=".">
+	<include name="php/**"/>
+      </fileset>
+    </copy>
+    <copy todir="/var/lib/tomcat7/webapps/StockOverflow">
+      <fileset dir=".">
+	<include name="images/**"/>
+      </fileset>
+    </copy>
+    <copy todir="/var/lib/tomcat7/webapps/StockOverflow">
+      <fileset dir=".">
+	<include name="d3/**"/>
+      </fileset>
+    </copy>
+    <copy todir="/var/lib/tomcat7/webapps/StockOverflow">
+      <fileset dir=".">
+	<include name="css/**"/>
+      </fileset>
+    </copy>
+  </target>
+
+</project>

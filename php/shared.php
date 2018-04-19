@@ -5,10 +5,10 @@
 -->
 
 <?php
-$servername = 'localhost:3306'; // change to your correct localhost port number
+$servername = '172.19.50.206'; // change to your correct localhost port number
 $dbname = 'TermProj'; // change to your database name
 $username = 'root'; // change to your username
-$password = 'root'; // change to your db password 
+$password = 'csci4300'; // change to your db password 
 
 
 //connection code
